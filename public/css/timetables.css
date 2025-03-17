@@ -1,0 +1,235 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #4ba2fe;
+}
+
+.home-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #4ba2fe;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 10px rgba(75, 162, 254, 0.5);
+}
+
+.home-button:hover {
+  background-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+}
+
+#searchBar {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 2px solid #4ba2fe;
+  border-radius: 10px;
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+#searchBar:focus {
+  border-color: #007bff;
+  background-color: #3a3a3a;
+}
+
+#timetableContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.timetable-item {
+  padding: 20px;
+  border: 1px solid #4ba2fe;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #2c2c2c;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.timetable-item:hover {
+  transform: scale(1.02);
+  background-color: #3a3a3a;
+}
+
+.timetable-item h2 {
+  color: #4ba2fe;
+}
+
+.timetable-item p {
+  margin: 5px 0;
+}
+
+.timetable-item .tags {
+  font-size: 0.8em;
+}
+
+.timetable-item iframe {
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #1e1e1e;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .timetable-item iframe {
+    height: 500px;
+  }
+}
+
+/* Theme toggle styles */
+.theme-toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.theme-toggle-label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: inherit;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  transition: 0.4s;
+  border-radius: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
+  top: 50%;
+  left: 0.3em;
+  transform: translateY(-50%);
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #303136;
+}
+
+input:checked + .slider:before {
+  left: calc(100% - 1.7em);
+  background: #303136;
+  box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+
+/* Dark theme*/
+body.dark-theme {
+  background-color: #1e1e2f;
+  color: #d1d1d1;
+}
+
+body.dark-theme .container {
+  background-color: #2a2a3b;
+}
+
+body.dark-theme .home-button {
+  background-color: #4cafef;
+  color: #1e1e2f;
+}
+
+body.dark-theme .home-button:hover {
+  background-color: #82cfff;
+}
+
+body.dark-theme .theme-toggle-label {
+  color: #d1d1d1;
+}
+
+/* Light theme*/
+body.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.light-theme .container {
+  background-color: #f9f9f9;
+}
+
+body.light-theme .home-button {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+body.light-theme .home-button:hover {
+  background-color: #0056b3;
+}
+
+body.light-theme .theme-toggle-label {
+  color: #000000;
+}
+
+body.light-theme #searchBar {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #007bff;
+}
+
+body.light-theme #searchBar::placeholder {
+  color: #888;
+}
+
+body.light-theme .timetable-item {
+  background-color: #f9f9f9;
+  border: 1px solid #007bff;
+  color: #000000;
+}
+
+body.light-theme .timetable-item:hover {
+  background-color: #e0e0e0;
+}

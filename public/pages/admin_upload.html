@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Upload</title>
+    <link rel="stylesheet" href="../css/admin_upload.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="./home.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./admin_panel.html">Admin Panel</a>
+      <a href="#" onclick="logOut()">Log Out</a>
+    </div>
+
+    <div class="container">
+      <h2 class="page-title">Upload Teaching Materials</h2>
+      <p class="page-description">
+        Fill out the form below to upload teaching materials. Ensure all details
+        are accurate.
+      </p>
+      <div class="contact-form">
+        <form id="adminForm" enctype="multipart/form-data">
+          <!-- Teacher Information -->
+          <h3>Teacher Information</h3>
+          <div class="form-group">
+            <label for="teacherName">Name:</label>
+            <input
+              type="text"
+              id="teacherName"
+              name="teacherName"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="teacherEmail">Email:</label>
+            <input
+              type="email"
+              id="teacherEmail"
+              name="teacherEmail"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="teacherPhone">Phone Number (Optional):</label>
+            <input
+              type="text"
+              id="teacherPhone"
+              name="teacherPhone"
+              placeholder="Enter your phone number"
+            />
+          </div>
+
+          <!-- Course Information -->
+          <h3>Course Information</h3>
+          <div class="form-group">
+            <label for="course">Course:</label>
+            <input
+              type="text"
+              id="course"
+              name="course"
+              placeholder="Enter the course"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Enter the subject"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="semester">Semester/Term (Optional):</label>
+            <input
+              type="text"
+              id="semester"
+              name="semester"
+              placeholder="Enter the semester/term"
+            />
+          </div>
+
+          <!-- Material Details -->
+          <h3>Material Details</h3>
+          <div class="form-group">
+            <label for="materialType">Type of Material:</label>
+            <input
+              type="text"
+              id="materialType"
+              name="materialType"
+              placeholder="Enter the type of material"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="materialTitle">Title of Material:</label>
+            <input
+              type="text"
+              id="materialTitle"
+              name="materialTitle"
+              placeholder="Enter the title of the material"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea
+              id="description"
+              name="description"
+              rows="4"
+              placeholder="Enter a description"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="dateNeeded">Date Needed Online By:</label>
+            <input type="date" id="dateNeeded" name="dateNeeded" required />
+          </div>
+          <div class="form-group">
+            <label for="instructions">Special Instructions:</label>
+            <textarea
+              id="instructions"
+              name="instructions"
+              rows="4"
+              placeholder="Enter any special instructions"
+            ></textarea>
+          </div>
+
+          <!-- File Upload -->
+          <h3>File Upload</h3>
+          <div class="form-group">
+            <label for="file"></label>
+            <div class="custom-file-upload">
+              <label for="file">Upload Files</label>
+              <input type="file" id="file" name="files" multiple required />
+              <span
+                >Supported formats: PDF, DOCX, DOC, TXT, JPEG, PNG, GIF</span
+              >
+            </div>
+            <ul id="file-list"></ul>
+          </div>
+
+          <button type="submit" class="submit-button">Submit</button>
+        </form>
+        <div id="error-message" class="error-message"></div>
+      </div>
+    </div>
+    <script src="../js/admin_upload.js" defer></script>
+    <script src="../js/shared.js" defer></script>
+  </body>
+</html>

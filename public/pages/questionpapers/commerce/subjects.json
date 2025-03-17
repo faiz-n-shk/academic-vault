@@ -1,0 +1,299 @@
+{
+    "BBA(CA)": {
+        "semester1": {
+            "BUSINESS COMMUNICATION SKILLS (2019 PATTERN)": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_april_business-communication-skills-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_november_business-communication-skills-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_april_business-communication-skills-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_november_business-communication-skills-2019-pattern.pdf" }
+            ],
+            "DATABASE MANAGEMENT": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_april_database-management-system-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_november_database-management-system-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_november_database-management-system-2019-pattern.pdf" }
+
+            ],
+            "PRINCIPLES OF MANAGEMENT": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_april_principles-of-management-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_november_principles-of-management-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2023_april_principles-of-management-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2023_november_principles-of-management-2019-pattern.pdf" }
+            ],
+            "C-LANGUAGE": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_april_c-language-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_november_c-language-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2023_april_c-language-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2023_november_c-language-2019-pattern.pdf" }
+            ],
+            "BUSINESS STATISTICS": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_april_business-statistics-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2022_november_business-statistics-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2023_april_business-statistics-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem1/commerce_bba-ca_semester-1_2023_november_business-statistics-2019-pattern.pdf" }
+            ]
+                },
+        "semester2": {
+            "FINANCIAL ACCOUNTING": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2022_april_financial-accounting-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2022_november_financial-accounting-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2023_april_financial-accounting-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2023_november_financial-accounting-2019-pattern.pdf" }
+            ],
+            "ORGANIZATIONAL BEHAVIOUR & HUMAN RESOURCE MANAGEMENT": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2022_april_organizational-behaviour-&-human-resource-management-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2022_november_organizational-behaviour-&-human-resource-management-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2023_november_organizational-behaviour-&-human-resource-management-2019-pattern.pdf" }
+            ],
+            "RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS)": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2022_april_relational-database-management-system-rdbms-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2022_november_relational-database-management-system-rdbms-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2023_april_relational-database-management-system-rdbms-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2023_november_relational-database-management-system-rdbms-2019-pattern.pdf" }
+            ],
+            "business-mathematics": [
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2022_november_business-mathematics-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2023_april_business-mathematics-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2023_november_business-mathematics-2019-pattern.pdf" }
+            ],
+            "WEB TECHNOLOGY-HTML_CSS_JS": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2022_april_web-technology-htmljscss-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2022_november_web-technology-htmljscss-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2023_april_web-technology-htmljscss-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem2/commerce_bba-ca_semester-2_2023_november_web-technology-htmljscss-2019-pattern.pdf" }
+            ]
+        },
+        "semester3": {
+            "SOFTWARE ENGINEERING": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_april_software-engineering-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_november_software-engineering-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2023_april_software-engineering-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2023_november_software-engineering-2019-pattern.pdf" }
+            ],
+            "BLOCK CHAIN": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_april_block-chain-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_november_block-chain-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2023_november_block-chain-2019-pattern.pdf" }
+            ],
+            "BIG DATA": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_april_big-data-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_november_big-data-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2023_april_big-data-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2023_november_big-data-2019-pattern.pdf" }
+            ],
+            "PHP": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_april_php-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_november_php-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2023_april_php-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2023_november_php-2019-pattern.pdf" }
+            ],
+            "ANGULAR JS": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_april_angular-js-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_november_angular-js-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2023_november_angular-js-2019-pattern.pdf" }
+            ],
+            "DATA STRUCTURE": [
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_november_data-structure-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2023_april_data-structure-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2023_november_data-structure-2019-pattern.pdf" }
+            ],
+            "DIGITAL MARKETING": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_april_digital-marketing-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2022_november_digital-marketing-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem3/commerce_bba-ca_semester-3_2023_november_digital-marketing-2019-pattern.pdf" }
+            ]
+        },
+        "semester4": {
+            "Advance PHP": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2022_april_advance-php-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2022_november_advance-php-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2023_april_advance-php-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2023_november_advance-php-2019-pattern.pdf" }
+            ],
+            "NodeJs": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2022_april_nodejs-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2022_november_nodejs-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2023_november_nodejs-2019-pattern.pdf" }
+            ],
+            "Operating System": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2022_april_operating-system-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2022_november_operating-system-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2023_april_operating-system-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2023_november_operating-system-2019-pattern.pdf" }
+            ],
+            "Object Oriented Programming Concept with C++": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2022_april_object-oriented-programming-concept-with-c++-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2022_november_object-oriented-programming-concept-with-c++-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2023_april_object-oriented-programming-concept-with-c++-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2023_november_object-oriented-programming-concept-with-c++-2019-pattern.pdf" }
+            ],
+            "Networking": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2022_april_networking-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2022_november_networking-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2023_april_networking-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem4/commerce_bba-ca_semester-4_2023_november_networking-2019-pattern.pdf" }
+            ]
+        },
+        "semester5": {
+            "OBJECT ORIENTED SOFTWARE ENGINEERING": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2022_april_object-oriented-software-engineering-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2022_november_object-oriented-software-engineering-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2023_april_object-oriented-software-engineering-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2023_november_object-oriented-software-engineering-2019-pattern.pdf" }
+            ],
+            "MONGO DB": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2022_april_mongo-db-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2022_november_mongo-db-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2023_november_mongo-db-2019-pattern.pdf" }
+            ],
+            "PYTHON": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2022_april_python-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2022_november_python-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2023_april_python-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2023_november_python-2019-pattern.pdf" }
+            ],
+            "CORE JAVA": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2022_april_core-java-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2022_november_core-java-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2023_april_core-java-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2023_november_core-java-2019-pattern.pdf" }
+            ],
+            "CYBER SECURITY": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2022_april_cyber-security-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2022_november_cyber-security-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2023_april_cyber-security-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem5/commerce_bba-ca_semester-5_2023_november_cyber-security-2019-pattern.pdf" }
+            ]
+        },
+        "semester6": {
+            "SOFTWARE TESTING": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2022_april_software-testing-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2022_november_software-testing-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2023_april_software-testing-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2023_november_software-testing-2019-pattern.pdf" }
+            ],
+            "ANDROID PROGRAMMING": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2022_april_android-programming-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2022_november_android-programming-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2023_november_android-programming-2019-pattern.pdf" }
+            ],
+            "DOT NET FRAMEWORK": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2022_april_dot-net-framework-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2022_november_dot-net-framework-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2023_april_dot-net-framework-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2023_november_dot-net-framework-2019-pattern.pdf" }
+            ],
+            "ADVANCED JAVA": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2022_april_advanced-java-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2022_november_advanced-java-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2023_april_advanced-java-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2023_november_advanced-java-2019-pattern.pdf" }
+            ],
+            "RECENT TRENDS IN INFORMATION TECHNOLOGY": [
+                { "year": 2022, "month": "April", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2022_april_recent-trends-in-information-technology-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2022_november_recent-trends-in-information-technology-2019-pattern.pdf" },
+                { "year": 2023, "month": "April", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2023_april_recent-trends-in-information-technology-2019-pattern.pdf" },
+                { "year": 2023, "month": "November", "link": "./BBA_CA/bba_ca_sem6/commerce_bba-ca_semester-6_2023_november_recent-trends-in-information-technology-2019-pattern.pdf" }
+            ]
+        }
+    },
+
+    "BBA": {
+        "semester1": {
+            "PRINCIPLES OF MANAGEMENT (2019 PATTERN)": [
+                { "year": 2023, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2023_november_principles-of-management-2019-pattern.pdf" },
+                { "year": 2022, "month": "April", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_april_principles-of-management-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_november_principles-of-management-2019-pattern.pdf" },
+                { "year": 2019, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2019_november_principles-of-management-2019-pattern.pdf" }
+            ],
+            "BUSINESS COMMUNICATION SKILLS (2019 PATTERN)": [
+                { "year": 2023, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2023_november_business-communication-skills-2019-pattern.pdf" },
+                { "year": 2022, "month": "April", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_april_business-communication-skills-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_november_business-communication-skills-2019-pattern.pdf" },
+                { "year": 2019, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2019_november_business-communication-skills-2019-pattern.pdf" }
+            ],
+            "BUSINESS ACCOUNTING (2019 PATTERN)": [
+                { "year": 2022, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_november_business-accounting-2019-pattern.pdf" },
+                { "year": 2022, "month": "April", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_april_business-accounting-2019-pattern.pdf" },
+                { "year": 2019, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2019_november_business-accounting-2019-pattern.pdf" }
+            ],
+            "BUSINESS ECONOMICS - MICRO (2019 PATTERN)": [
+                { "year": 2023, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2023_november_business-economics-micro-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_november_business-economics-micro-2019-pattern.pdf" },
+                { "year": 2022, "month": "April", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_april_business-economics-micro-2019-pattern.pdf" },
+                { "year": 2019, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2019_november_business-economics-micro-2019-pattern.pdf" }
+            ],
+            "BUSINESS MATHEMATICS (2019 PATTERN)": [
+                { "year": 2023, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2023_november_business-mathematics-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_november_business-mathematics-2019-pattern.pdf" },
+                { "year": 2022, "month": "April", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_april_business-mathematics-2019-pattern.pdf" },
+                { "year": 2019, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2019_november_business-mathematics-2019-pattern.pdf" }
+            ],
+            "BUSINESS DEMOGRAPHY (2019 PATTERN)": [
+                { "year": 2023, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2023_november_business-demography-2019-pattern.pdf" },
+                { "year": 2022, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_november_business-demography-2019-pattern.pdf" },
+                { "year": 2022, "month": "April", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2022_april_business-demography-2019-pattern.pdf" },
+                { "year": 2019, "month": "November", "link": "https://sppuquestionpapers.com/storage/questionpapers/commerce_bba_semester-1_2019_november_business-demography-2019-pattern.pdf" }
+            ]
+        },
+        "semester2": {
+            "Marketing Management": [
+                { "year": 2023, "month": "June", "link": "" },
+                { "year": 2023, "month": "November", "link": "" },
+                { "year": 2023, "month": "November", "link": "" },
+                { "year": 2023, "month": "November", "link": "" }
+            ],
+            "Human Resource Management": [
+                { "year": 2023, "month": "June", "link": "" },
+                { "year": 2023, "month": "November", "link": "" },
+                { "year": 2023, "month": "November", "link": "" },
+                { "year": 2023, "month": "November", "link": "" }
+            ]
+        },
+        "semester3": {
+            "Subject 2": [
+                { "year": 2023, "month": "June", "link": "" }
+            ],
+            "Subject 3": [
+                { "year": 2023, "month": "June", "link": "" }
+            ]
+        }
+    },
+
+    "BBA IB": {
+        "semester1": {
+            "International Business": [
+                { "year": 2023, "month": "June", "link": "" }
+            ],
+            "Global Marketing": [
+                { "year": 2023, "month": "June", "link": "" }
+            ]
+        },
+        "semester2": {
+            "Export Management": [
+                { "year": 2023, "month": "June", "link": "" }
+            ],
+            "International Finance": [
+                { "year": 2023, "month": "June", "link": "" }
+            ]
+        }
+    },
+    
+    "BCOM": {
+        "semester1": {
+            "Commerce": [
+                { "year": 2023, "month": "June", "link": "" }
+            ],
+            "Economics": [
+                { "year": 2023, "month": "June", "link": "" }
+            ]
+        },
+        "semester2": {
+            "Business Law": [
+                { "year": 2023, "month": "June", "link": "" }
+            ],
+            "Corporate Accounting": [
+                { "year": 2023, "month": "June", "link": "" }
+            ]
+        }
+    }
+}

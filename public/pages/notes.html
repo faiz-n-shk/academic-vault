@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/notes.css" />
+  </head>
+  <body>
+    <div class="top-right-buttons">
+      <button onclick="window.location.href='./home.html'">Home</button>
+      <button onclick="window.location.href='./notes_upload.html'">
+        Upload Notes
+      </button>
+      <div class="theme-toggle-container">
+        <span class="theme-toggle-label">Change Theme:</span>
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+    <!-- filtered search, shows content in the notes.json can be filtered from the search bar with js code. -->
+    <input
+      type="text"
+      id="search-bar"
+      placeholder="Search course, notes, etc..."
+    />
+    <!-- Container for dynamically loaded notes -->
+    <div class="notes-container" id="notes-container">
+      <!-- notes will be loaded automatically from node_id.json -->
+    </div>
+    <script src="../js/notes.js"></script>
+  </body>
+</html>

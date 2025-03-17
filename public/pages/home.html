@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../css/home.css" />
+  </head>
+  <body onload="enforceLogin()">
+    <div class="header">Academic Vault</div>
+
+    <div class="button-group">
+      <a href="./contact.html" class="button contact-button">Contact/Support</a>
+      <a href="./about.html" class="button about-button">About</a>
+      <a href="#" class="button logout-button" onclick="logOut()">Log Out</a>
+      <a
+        href="../pages/admin_panel.html"
+        class="button admin-button"
+        id="adminButton"
+        style="display: none"
+        >Admin Page</a
+      >
+    </div>
+
+    <div class="container">
+      <div class="tile" data-url="./syllabus.html">
+        <img src="../assets/images/syllabus.jpg" alt="Syllabus" />
+        <div class="text">Syllabus</div>
+      </div>
+
+      <div class="tile" data-url="./timetables.html">
+        <img
+          src="../assets/images/timetables_exam-related.jpg"
+          alt="Time Table/Exam-Related"
+        />
+        <div class="text">Time Tables And Exam Related Info</div>
+      </div>
+
+      <div class="tile" data-url="./notes.html">
+        <img src="../assets/images/notes.jpg" alt="Notes" />
+        <div class="text">Notes</div>
+      </div>
+
+      <div class="tile" data-url="./questionpapers.html">
+        <img src="../assets/images/qna.jpg" alt="Questions" />
+        <div class="text">Question Papers</div>
+      </div>
+    </div>
+
+    <script src="../js/home.js"></script>
+    <script src="../js/shared.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "syllabus": [
+    {
+      "course": "BBA(CA)",
+      "description": "Full Semester of BBA(CA) including FY, SY, TY, all semester",
+      "tags": [
+        "bbaca, BBACA, BBA(ca), bba.ca, Business Communication",
+        "Principle of Management",
+        "C Language",
+        "Database Management System",
+        "Statistics",
+        "Organization Behavior & Human Resource Management",
+        "Financial Accounting",
+        "Business Mathematics",
+        "Relational Database",
+        "Web Technology HTML-JS-CSS",
+        "Digital Marketing",
+        "Data Structure",
+        "Software Engineering",
+        "Angular JS",
+        "PHP",
+        "Big Data",
+        "Blockchain",
+        "Environment Awareness",
+        "Networking",
+        "Object Oriented Concepts Through CPP",
+        "Operating System",
+        "Node JS",
+        "Advance PHP",
+        "Hadoop",
+        "Cyber Security",
+        "OOSE",
+        "Core Java",
+        "Mongo DB",
+        "Python",
+        "Software Testing",
+        "Advanced Java",
+        "Android Programming",
+        "Dot Net Framework"
+      ],
+      "year": "From 2019-Ongoing",
+      "link": "./syllabus/syllabus_bba(ca).pdf"
+    },
+    {
+      "course": "BSC(CS)",
+      "description": "Full Semester of B.SC(CS) including FY, SY, TY, all semester",
+      "tags": ["physics", "mechanics", "thermodynamics"],
+      "year": "From 2019-Ongoing",
+      "link": "./syllabus/syllabus_bsc.pdf"
+    },
+    {
+      "course": "BCOM",
+      "description": "Full Semester of B.COM. including FY, SY, TY, all semester",
+      "tags": ["Commerce", "Banking", "Finance"],
+      "year": "From 2019-Ongoing",
+      "link": "./syllabus/syllabus_bcom.pdf"
+    }
+  ]
+}

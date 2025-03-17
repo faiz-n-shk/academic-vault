@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Login & Registration</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="nav">
+        <div class="nav-logo">
+          <p>Academic Vault</p>
+        </div>
+        <div class="nav-menu" id="navMenu">
+          <ul>
+            <li><a href="#" class="link" onclick="redirect()">Home</a></li>
+            <li>
+              <a href="./pages/contact_login.html" class="link"
+                >Contact/Support</a
+              >
+            </li>
+            <li>
+              <a href="./pages/about_login.html" class="link">About Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn white-btn" id="loginBtn" onclick="login()">
+            Sign In
+          </button>
+          <button class="btn" id="registerBtn" onclick="register()">
+            Sign Up
+          </button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!----------------------------- Form box ----------------------------------->
+      <div class="form-box">
+        <!------------------- login form -------------------------->
+        <div class="login-container" id="login">
+          <div class="top">
+            <span
+              >Don't have an account?
+              <a href="#" onclick="register()">Sign Up</a></span
+            >
+            <header>Login</header>
+          </div>
+          <form id="loginForm" method="post">
+            <div class="input-box">
+              <input
+                type="text"
+                id="loginUsername"
+                class="input-field"
+                placeholder="Email"
+                required
+              />
+              <i class="bx bx-user"></i>
+            </div>
+            <div class="input-box">
+              <div class="input-field-1">
+                <input
+                  type="password"
+                  class="input-pass"
+                  id="loginPassword"
+                  placeholder="Password"
+                  required
+                />
+                <img
+                  class="showpass-ico"
+                  id="toggleImage"
+                  src="./assets/images/close.svg"
+                  alt="showpass"
+                  width="20px"
+                  height="20px"
+                />
+              </div>
+              <i class="bx bx-lock-alt"></i>
+            </div>
+            <div class="input-box">
+              <input
+                type="button"
+                class="submit"
+                value="Sign In"
+                onclick="handleLogin()"
+              />
+            </div>
+          </form>
+
+          <div class="two">
+            <label
+              ><a target="_blank" href="./pages/contact_login.html"
+                >Forgot password?</a
+              ></label
+            >
+          </div>
+        </div>
+
+        <!------------------- registration form -------------------------->
+        <div class="register-container" id="register">
+          <div class="top">
+            <span
+              >Have an account? <a href="#" onclick="login()">Login</a></span
+            >
+            <header>Sign Up</header>
+          </div>
+          <form id="registerForm" method="post">
+            <div class="two-forms">
+              <div class="input-box">
+                <input
+                  type="text"
+                  id="registerFirstname"
+                  class="input-field"
+                  placeholder="Firstname"
+                  required
+                />
+                <i class="bx bx-user"></i>
+              </div>
+              <div class="input-box">
+                <input
+                  type="text"
+                  id="registerLastname"
+                  class="input-field"
+                  placeholder="Lastname"
+                  required
+                />
+                <i class="bx bx-user"></i>
+              </div>
+            </div>
+            <div class="input-box">
+              <input
+                type="email"
+                id="registerEmail"
+                class="input-field"
+                placeholder="Email"
+                required
+              />
+              <i class="bx bx-envelope"></i>
+            </div>
+            <div class="input-box">
+              <div class="input-field-1">
+                <input
+                  type="password"
+                  class="input-pass"
+                  id="registerPassword"
+                  placeholder="Password"
+                  required
+                />
+                <img
+                  class="showpass-ico"
+                  id="toggleImage2"
+                  src="./assets/images/close.svg"
+                  alt="showpass"
+                  width="20px"
+                  height="20px"
+                />
+              </div>
+              <i class="bx bx-lock-alt"></i>
+            </div>
+            <div class="input-box">
+              <input
+                type="button"
+                class="submit"
+                value="Register"
+                onclick="handleRegister()"
+              />
+            </div>
+
+            <div class="two">
+              <label
+                ><a href="./pages/tnc.html" target="_blank"
+                  >Terms & conditions</a
+                ></label
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/shared.js"></script>
+  </body>
+</html>

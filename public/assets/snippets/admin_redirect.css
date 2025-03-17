@@ -1,0 +1,10 @@
+.admin-button {
+  background: #ff4500;
+  color: #fff;
+  text-shadow: none; /* Remove glow effect */
+}
+.admin-button:hover {
+  background: #ff6347;
+  box-shadow: 0 0 10px rgba(255, 99, 71, 0.8), 0 0 20px rgba(255, 99, 71, 0.6),
+    0 0 30px rgba(255, 99, 71, 0.4); /* Glow effect */
+}

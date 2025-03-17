@@ -1,0 +1,46 @@
+
+a) What is an operating system? List different types of operating systems.
+An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs. The OS acts as an intermediary between users and the computer hardware. Different types of operating systems include:
+- Batch Operating System
+- Time-Sharing Operating System
+- Distributed Operating System
+- Network Operating System
+- Real-Time Operating System
+
+b) What is system call? Explain with example.
+A system call is a way for programs to interact with the operating system. It provides an interface between a process and the operating system. For example, the `open()` system call in Unix-based systems is used to open a file.
+
+c) Explain different types of scheduling queues.
+Scheduling queues are used to manage processes in an operating system. The main types are:
+- Job Queue: Holds all the processes in the system.
+- Ready Queue: Contains processes that are ready to execute.
+- Device Queue: Contains processes waiting for an I/O device.
+
+d) Define Throughput and Response time.
+- Throughput: The number of processes that complete their execution per time unit.
+- Response Time: The time from the submission of a request until the first response is produced.
+
+e) What is dispatcher?
+A dispatcher is a component of the operating system that gives control of the CPU to the process selected by the short-term scheduler. It involves context switching, switching to user mode, and jumping to the proper location in the user program to restart that program.
+
+f) Explain medium term scheduler.
+The medium-term scheduler is responsible for swapping processes in and out of the memory. It temporarily removes processes from main memory and places them in secondary storage (or vice versa) to improve the process mix.
+
+g) What is starvation?
+Starvation is a condition where a process is perpetually denied necessary resources to proceed with its execution, usually because of the continuous allocation of resources to other processes.
+
+h) Define Turnaround time and Waiting time of a process.
+- Turnaround Time: The total time taken from the submission of a process to its completion.
+- Waiting Time: The total time a process spends in the ready queue waiting for CPU time.
+
+i) What is process?
+A process is a program in execution. It is an active entity with a program counter, registers, and variables. A process goes through different states such as new, ready, running, waiting, and terminated.
+
+j) Define Burst Time.
+Burst Time is the time required by a process for its execution on the CPU. It can be divided into CPU burst time and I/O burst time.
+
+k) Define Context Switch.
+A context switch is the process of storing the state of a process or thread, so that it can be restored and execution resumed from the same point later. This allows multiple processes to share a single CPU.
+
+l) Define Belady’s Anomaly.
+Belady’s Anomaly refers to the counterintuitive situation where increasing the number of page frames results in an increase in the number of page faults in certain page replacement algorithms, such as FIFO (First-In-First-Out).

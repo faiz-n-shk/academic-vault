@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Papers</title>
+    <link rel="stylesheet" href="../css/questionpapers.css">
+</head>
+<body>
+    <a href="./home.html" class="home-button" onclick="">Home</a>
+    <div class="container">
+        <div class="tile" data-url="./questionpapers/be/be.html">
+            <img src="/public/assets/images/engineering.jpg" alt="Image 1">
+            <div class="text">Bachelor in Engineering (BE)</div>
+        </div>
+
+        <div class="tile" data-url="./questionpapers/bsc/bsc.html">
+            <img src="/public/assets/images/brain_meme.jpeg" alt="Image 4">
+            <div class="text">Bachelor in Science(BSC)</div>
+        </div>
+
+        <div class="tile" data-url="./questionpapers/pg/pg.html">
+            <img src="/public/assets/images/degree.jpg" alt="Image 4">
+            <div class="text">Post Graduate (PG)</div>
+        </div>
+
+        <div class="tile" data-url="./questionpapers/commerce/commerce.html">
+            <img src="/public/assets/images/commerce.jpg" alt="Image 7">
+            <div class="text">Commerce (COM)</div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            const { clientX: x, clientY: y } = e;
+            const { innerWidth: width, innerHeight: height } = window;
+            const moveX = (x / width) * 10;
+            const moveY = (y / height) * 10;
+            document.body.style.backgroundPosition = `${50 + moveX}% ${50 + moveY}%`;
+        });
+    </script>
+    <script src="../js/questionpapers.js"></script>
+</body>
+</html>

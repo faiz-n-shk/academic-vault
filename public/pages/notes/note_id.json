@@ -1,0 +1,70 @@
+{
+    "groups": [
+        {
+            "title": "BBA(CA)",
+            "notes": [
+                {
+                    "title": "Operating System Internal Exam Importance",
+                    "link": "./notes/bbaca/pdf/operating system imp.pdf",
+                    "description": "Important questions for operating system internal exams.",
+                    "uploader": "Faizan",
+                    "tags": "Semester 4, sem4, sem 4, operating system, os, op",
+                    "uploadDate": "13-02-2025"
+                },
+                {
+                    "title": "C++ Slips 1-10 (Solved)",
+                    "link": "./notes/bbaca/pdf/Cpp slips 1-10.pdf",
+                    "description": "C++ practical slips from 1-10, solved.",
+                    "uploader": "Faizan",
+                    "tags": "Semester 4, sem4, sem 4, solved, solved slips, c++, cpp",
+                    "uploadDate": "13-02-2025"
+                },
+                {
+                    "title": "Operating System Internal Exam Importance",
+                    "link": "./notes/bbaca/text/op_internal.txt",
+                    "description": "Operating system internal important questions, solved.",
+                    "uploader": "Faizan",
+                    "tags": "Semester 4, sem4, sem 4, operating system, os, op",
+                    "uploadDate": "20-02-2025"
+                },
+                {
+                    "title": "Operating System 4 mark questions",
+                    "link": "./notes/bbaca/markdown/op_4marks.md",
+                    "description": "4 mark questions for operating system, important for exams, solved.",
+                    "uploader": "Faizan",
+                    "tags": "Semester 4, sem4, sem 4, operating system, os, op, solved",
+                    "uploadDate": "27-02-2025"
+                }
+            ]
+        },
+        {
+            "title": "BBA",
+            "notes": [
+                {
+                    "title": "Business Communication",
+                    "link": "./notes/bba/pdf/business_communication.pdf",
+                    "description": "Business communication notes for semester 2.",
+                    "uploader": "Faizan",
+                    "tags": "Semester 2, sem2, sem 2, business communication, bc",
+                    "uploadDate": "13-02-2025"
+                },
+                {
+                    "title": "Business Communication",
+                    "link": "./notes/bba/text/business_communication.txt",
+                    "description": "Business communication notes for semester 2.",
+                    "uploader": "Faizan",
+                    "tags": "Semester 2, sem2, sem 2, business communication, bc",
+                    "uploadDate": "20-02-2025"
+                },
+                {
+                    "title": "Business Communication",
+                    "link": "./notes/bba/markdown/business_communication.md",
+                    "description": "Business communication notes for semester 2.",
+                    "uploader": "Faizan",
+                    "tags": "Semester 2, sem2, sem 2, business communication, bc",
+                    "uploadDate": "27-02-2025"
+                }
+            ]
+        }
+    ]
+}

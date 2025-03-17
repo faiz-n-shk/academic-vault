@@ -1,0 +1,52 @@
+{
+  "timetables": [
+    {
+      "college": "Poona College of Arts, Science and Commerce",
+      "timetable_name": "SYBBA(CA) Internal Exam Timetable",
+      "description": "Internal Exam timetable for SYBBA(CA) for the academic year 2024-2025.S",
+      "upload_date": "27-02-2025",
+      "tags": "business, statistics, database, management, cpp",
+      "link": "./time_tables/poona_cllg/Internal_Exam-sybabca_2024-2025.pdf"
+    },
+    {
+      "college": "Poona College of Arts, Science and Commerce",
+      "timetable_name": "SYBBA(CA) Internal Exam Seating Arrangement",
+      "description": "Internal Exam seating arrangement for SYBBA(CA) for the academic year 2024-2025.",
+      "upload_date": "27-02-2025",
+      "tags": "business, statistics, database, management",
+      "link": "./time_tables/poona_cllg/seating_arrangement_March_2025.pdf"
+    },
+    {
+      "college": "Poona College of Arts, Science and Commerce",
+      "timetable_name": "BCOM Class Timetable",
+      "description": "Class timetable for BCOM for the academic year 2023-2024.",
+      "upload_date": "05-03-2025",
+      "tags": "commerce, banking, finance",
+      "link": "./timetables/bcom_class_timetable.pdf"
+    },
+    {
+      "college": "Poona College of Arts, Science and Commerce",
+      "timetable_name": "BSC Exam",
+      "description": "Exam timetable for BSC for the academic year 2023-2024.",
+      "upload_date": "10-03-2025",
+      "tags": "physics, mechanics, thermodynamics",
+      "link": "./timetables/bsc_exam_timetable.pdf"
+    },
+    {
+      "college": "XYZ College of Commerce",
+      "timetable_name": "FYBCOM Semester 1 Timetable",
+      "description": "Timetable for FYBCOM Semester 1 for the academic year 2024-2025.",
+      "upload_date": "15-03-2025",
+      "tags": "commerce, banking, finance",
+      "link": "./timetables/fybcom_sem1_timetable.pdf"
+    },
+    {
+      "college": "ABC College of Science",
+      "timetable_name": "MSC Physics Practical Timetable",
+      "description": "Practical timetable for MSC Physics for the academic year 2024-2025.",
+      "upload_date": "20-03-2025",
+      "tags": "physics, mechanics, thermodynamics",
+      "link": "./timetables/msc_physics_practical_timetable.pdf"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commerce Question Papers</title>
+    <link rel="stylesheet" href="commerce.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="commerce.js" defer></script>
+</head>
+<body>
+    <div style="position: fixed; top: 10px; left: 10px; z-index: 1000;">
+        <label style="margin-right: 10px; font-size: 15px; color: var(--text-color);">Change Theme:</label>
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle" checked> <!-- Set to checked by default -->
+            <span class="slider"></span>
+        </label>
+    </div>
+    <button id="back-button" style="display:none; position:fixed; top:10px; right:10px;">Back</button>
+    <button id="qpapers-button" style="display:block; position:fixed; top:10px; right:10px;">Select Course</button>
+    <h1>Commerce (COM)</h1>
+    <div id="branch-options">
+        <button onclick="showSemesters('BBA(CA)')">BBA(CA)</button>
+        <button onclick="showSemesters('BBA')">BBA</button>
+        <button onclick="showSemesters('BBA IB')">BBA IB</button>
+        <button onclick="showSemesters('BCOM')">BCOM</button>
+    </div>
+    <div id="semester-options" style="display:none;">
+        <h2>Select Semester</h2>
+        <button onclick="showQuestionPapers(1)">Semester 1</button>
+        <button onclick="showQuestionPapers(2)">Semester 2</button>
+        <button onclick="showQuestionPapers(3)">Semester 3</button>
+        <button onclick="showQuestionPapers(4)">Semester 4</button>
+        <button onclick="showQuestionPapers(5)">Semester 5</button>
+        <button onclick="showQuestionPapers(6)">Semester 6</button>
+    </div>
+    <div id="question-papers" style="display:none;">
+        <h1 id="branch-title"></h1>
+        <div id="question-papers-container">
+            <!-- Tables will be dynamically loaded here -->
+        </div>
+    </div>
+</body>
+</html>

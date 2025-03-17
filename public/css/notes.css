@@ -1,0 +1,404 @@
+/* Styling for the search bar */
+/* group class and ids are course names.*/
+#search-bar {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 16px;
+  border: 2px solid #4ba2fe;
+  border-radius: 10px;
+  transition: border-color 2s;
+}
+
+/* Change border color when the search bar is focused */
+#search-bar:focus {
+  border-color: #007bff;
+}
+
+.i-frame {
+  width: 50%;
+  height: 300px;
+}
+
+/* Styling for the group title */
+.group-title {
+  cursor: pointer;
+  border: 1px solid #007bff;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Change background color and text color when hovering over the group title */
+.group-title:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Styling for the group notes container */
+.group-notes {
+  display: none;
+  margin-left: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+  width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Styling for individual notes */
+.note {
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.3s, background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Change transform and background color when hovering over a note */
+.note:hover {
+  transform: scale(1.02);
+  background-color: #f1f1f1;
+}
+
+/* Styling for the note description */
+.description {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Styling for the uploader information */
+.uploader {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Styling for the upload date */
+.upload-date {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Styling for the tags */
+.tags {
+  margin-top: 2px;
+  font-size: 10px;
+  color: #666;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Styling for the top right buttons */
+.top-right-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Styling for the buttons in the top right corner */
+.top-right-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Change background color and transform when hovering over the buttons */
+.top-right-buttons button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ced2cd7e;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the notes container */
+.notes-container {
+  padding: 20px;
+}
+
+/* Remove outline from buttons */
+button {
+  outline: none;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .top-right-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .top-right-buttons button {
+    margin: 5px;
+    width: auto;
+  }
+
+  .group-notes {
+    margin-left: 0;
+  }
+
+  .note {
+    padding: 15px;
+  }
+
+  .i-frame {
+    height: 200px;
+  }
+}
+
+.download-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.download-icon:hover {
+  transform: scale(1.1);
+}
+
+/* The switch - the box around the slider */
+.switch {
+  display: block;
+  --width-of-switch: 3.5em;
+  --height-of-switch: 2em;
+  /* size of sliding icon -- sun and moon */
+  --size-of-icon: 1.4em;
+  /* it is like a inline-padding of switch */
+  --slider-offset: 0.3em;
+  position: relative;
+  width: var(--width-of-switch);
+  height: var(--height-of-switch);
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  transition: 0.4s;
+  border-radius: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for visibility in light theme */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: var(--size-of-icon, 1.4em);
+  width: var(--size-of-icon, 1.4em);
+  border-radius: 20px;
+  left: var(--slider-offset, 0.3em);
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #303136;
+}
+
+input:checked + .slider:before {
+  left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
+  background: #303136;
+  /* change the value of second inset in box-shadow to change the angle and direction of the moon */
+  box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+
+/*dark theme styles */
+body.dark-theme {
+  background-color: #1e1e2f; /* Dark background */
+  color: #d1d1d1; /* Light text for readability */
+}
+
+body.dark-theme .group-title {
+  background-color: #2a2a3b; /* Dark group title background */
+  color: #d1d1d1; /* Light text for group title */
+  border: 1px solid #4cafef; /* Vibrant blue border */
+}
+
+body.dark-theme .group-title:hover {
+  background-color: #4cafef; /* Vibrant blue hover background */
+  color: #1e1e2f; /* Dark text on hover */
+}
+
+body.dark-theme .note {
+  background-color: #2a2a3b; /* Dark note background */
+  border: 1px solid #4cafef; /* Vibrant blue border */
+  color: #d1d1d1; /* Light text for notes */
+}
+
+body.dark-theme .note:hover {
+  transform: scale(1.02); /* Keep the scaling effect */
+  /* Remove background color change */
+  color: #d1d1d1; /* Ensure text color remains consistent */
+}
+
+body.dark-theme button {
+  background-color: #2a2a3b; /* Dark button background */
+  color: #d1d1d1; /* Light button text */
+  border: 1px solid #4cafef; /* Vibrant blue border */
+}
+
+body.dark-theme button:hover {
+  background-color: #4cafef; /* Vibrant blue hover background */
+  color: #1e1e2f; /* Dark text on hover */
+}
+
+body.dark-theme a {
+  color: #4cafef; /* Vibrant blue links */
+}
+
+body.dark-theme a:hover {
+  color: #82cfff; /* Lighter blue on hover */
+}
+
+body.dark-theme table {
+  background-color: #2a2a3b; /* Dark table background */
+  border: 1px solid #4cafef; /* Vibrant blue border */
+}
+
+body.dark-theme th {
+  background-color: #3a3a4b; /* Slightly lighter gray for headers */
+  color: #d1d1d1; /* Light text for headers */
+}
+
+body.dark-theme #search-bar {
+  background-color: #2a2a3b; /* Dark background for the search bar */
+  color: #d1d1d1; /* Light text for readability */
+  border: 2px solid #4cafef; /* Vibrant blue border */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+body.dark-theme #search-bar::placeholder {
+  color: #888; /* Light gray placeholder text */
+}
+
+/*light theme styles */
+body.light-theme {
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text for readability */
+}
+
+body.light-theme .group-title {
+  background-color: #f1f1f1; /* Light group title background */
+  color: #000000; /* Dark text for group title */
+  border: 1px solid #007bff; /* Blue border */
+}
+
+body.light-theme .note {
+  background-color: #ffffff; /* Light note background */
+  border: 1px solid #ddd; /* Light gray border */
+  color: #000000; /* Dark text for notes */
+}
+
+body.light-theme button {
+  background-color: #007bff; /* Blue button background */
+  color: #ffffff; /* White button text */
+}
+
+body.light-theme button:hover {
+  background-color: #0056b3; /* Darker blue hover background */
+  color: #ffffff; /* Keep white text on hover */
+}
+
+body.light-theme a {
+  color: #007bff; /* Blue links */
+}
+
+body.light-theme a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+body.light-theme #search-bar {
+  background-color: #ffffff; /* Light background for the search bar */
+  color: #000000; /* Dark text for readability */
+  border: 2px solid #007bff; /* Blue border */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+body.light-theme #search-bar::placeholder {
+  color: #888; /* Light gray placeholder text */
+}
+
+/* Ensure the label adapts to the light theme */
+body.light-theme .theme-toggle-label {
+  color: #000000; /* Dark text for readability in light mode */
+}
+
+/* Styling for the theme toggle container */
+.theme-toggle-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  align-items: center;
+}
+
+/* Styling for the theme toggle label */
+.theme-toggle-label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: inherit; /* Adapt to the current theme */
+}
+
+/* Ensure the label adapts to the dark theme */
+body.dark-theme .theme-toggle-label {
+  color: #d1d1d1; /* Light text for readability in dark mode */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .top-right-buttons {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .top-right-buttons button {
+    margin: 5px 0;
+  }
+
+  .theme-toggle-container {
+    margin-top: 5px;
+    justify-content: flex-end; /* Ensure alignment remains on the right */
+  }
+}
